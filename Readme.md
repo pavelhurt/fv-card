@@ -11,13 +11,13 @@
 
 ## Demo
 
-  ###### 1. into fv-card
+  1.into fv-card
 
-  ###### 2. run
+  2.run
 
     $ component build
 
-  ###### 3. open demo.html in your browser
+  3.open demo.html in your browser
 
 ## API
 
