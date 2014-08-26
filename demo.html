@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <title>fv-card|feaven card demo</title>
+  <meta charset="utf-8"/>
+  <meta name="description" content="fv-card|feaven card demo"/>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes"/>
+  <link rel="stylesheet" href="build/build.css" />
+  <style>
+  body, article, section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  fv-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 256px;
+    background-color: #5677fc;
+  }
+  .demo-toolbar {
+    font-family: Consolas;
+    font-size: 48px;
+    color: #fff;
+  }
+  .card-content-position {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    top: 154px;
+  }
+  .demo-card {
+    width: 360px;
+    height: 200px;
+    padding: 10px 28px;
+    background-color: #fff;
+  }
+  </style>
+</head>
+<body>
+<article id="demo-page">
+  <fv-toolbar class="demo-toolbar">
+    <h1>feaven card demo</h1>
+  </fv-toolbar>
+  <section class="card-content-position">
+    <fv-card class="demo-card">Login Card</fv-card>
+  </section>
+</article>
+<script src="build/build.js"></script>
+</body>
+</html>

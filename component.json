@@ -1,0 +1,22 @@
+{
+  "name": "fv-card",
+  "repo": "pavelhurt/fv-card",
+  "description": "feaven card built with component",
+  "version": "0.0.1",
+  "keywords": [
+    "fv-card",
+    "feaven",
+    "fv",
+    "card"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "fv-card.css"
+  ]
+}
